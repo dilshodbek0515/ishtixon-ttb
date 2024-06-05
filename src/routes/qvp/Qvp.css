@@ -1,0 +1,271 @@
+.Qvp_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.qvp {
+    max-width: 1369px;
+    height: 646px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    max-width: 1369px;
+    height: 40.4px;
+}
+
+.id,
+.title,
+.content,
+.data_tel {
+    text-align: left;
+    color: #01b3b0;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.id {
+    width: 60px;
+    height: 40px;
+    transition: .5s;
+    padding: 10px 0px 10px 10px;
+}
+
+.title {
+    width: 660px;
+    height: 40px;
+    transition: .5s;
+    padding: 10px 0px 10px 10px;
+}
+
+.content {
+    width: 400px;
+    height: 40px;
+    transition: .5s;
+    padding: 10px 0px 10px 10px;
+}
+
+.data_tel {
+    width: 250px;
+    height: 40px;
+    transition: .5s;
+    padding: 10px 0px 10px 10px;
+}
+
+@media only screen and (max-width:1401px) {
+    .id {
+        width: 50px;
+        transition: .5s;
+    }
+
+    .title {
+        width: 560px;
+        transition: .5s;
+    }
+
+    .content {
+        width: 300px;
+        transition: .5s;
+    }
+
+    .data_tel {
+        width: 150px;
+        transition: .5s;
+    }
+
+}
+
+@media only screen and (max-width:1101px) {
+    .id {
+        width: 50px;
+        transition: .5s;
+        font-size: 14px;
+    }
+
+    .title {
+        width: 460px;
+        transition: .5s;
+        font-size: 14px;
+    }
+
+    .content {
+        width: 280px;
+        transition: .5s;
+        font-size: 14px;
+    }
+
+    .data_tel {
+        width: 130px;
+        transition: .5s;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:946px) {
+    .id {
+        font-size: 13px;
+    }
+
+    .title {
+        width: 340px;
+        transition: .5s;
+        font-size: 13px;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+
+    .data_tel {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:821px) {
+    .id {
+        max-width: 40px;
+        font-size: 12px;
+    }
+
+    .title {
+        max-width: 300px;
+        transition: .5s;
+        font-size: 12px;
+    }
+
+    .content {
+        max-width: 250px;
+        font-size: 12px;
+    }
+
+    .data_tel {
+        font-size: 12px;
+        max-width: 120px;
+    }
+
+}
+
+@media only screen and (max-width:731px) {
+    .id {
+        max-width: 40px;
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .title {
+        max-width: 200px;
+        height: 50px;
+        transition: .5s;
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .content {
+        max-width: 200px;
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .data_tel {
+        font-size: 12px;
+        max-width: 100px;
+        height: 50px;
+    }
+
+    .qvp,
+    .data {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:571px) {
+    .id {
+        max-width: 35px;
+        font-size: 11px;
+        height: 60px;
+    }
+
+    .title {
+        max-width: 150px;
+        transition: .5s;
+        font-size: 11px;
+        height: 60px;
+    }
+
+    .content {
+        max-width: 150px;
+        font-size: 11px;
+        height: 60px;
+    }
+
+    .data_tel {
+        font-size: 11px;
+        max-width: 100px;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (max-width:461px) {
+    .id {
+        max-width: 30px;
+        font-size: 10px;
+        height: 65px;
+    }
+
+    .title {
+        max-width: 100px;
+        transition: .5s;
+        font-size: 10px;
+        height: 65px;
+    }
+
+    .content {
+        max-width: 100px;
+        font-size: 10px;
+        height: 65px;
+    }
+
+    .data_tel {
+        font-size: 10px;
+        max-width: 100px;
+        height: 65px;
+    }
+
+}
+
+@media only screen and (max-width:361px) {
+    .id {
+        max-width: 30px;
+        font-size: 9px;
+        height: 75px;
+    }
+
+    .title {
+        max-width: 80px;
+        transition: .5s;
+        font-size: 9px;
+        height: 75px;
+    }
+
+    .content {
+        max-width: 100px;
+        font-size: 9px;
+        height: 75px;
+    }
+
+    .data_tel {
+        font-size: 9px;
+        max-width: 80px;
+        height: 75px;
+    }
+
+}

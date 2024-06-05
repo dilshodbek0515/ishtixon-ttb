@@ -1,0 +1,147 @@
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.About {
+    max-width: 1440px;
+    height: 550px;
+    box-shadow: 0 6px 12px -2px #32325d40, 0 3px 7px -3px #0000004d;
+    background: #87878714;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 20px 0px 50px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.about_img {
+    max-width: 650px;
+    height: 487px;
+    border-radius: 10px;
+}
+
+.about_right_content {
+    max-width: 700px;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_text_one {
+    font-size: 30px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #01b3b0;
+    font-weight: 700;
+}
+
+.about_line {
+    width: 90px;
+    height: 5px;
+    background-color: #01b3b0;
+    border: transparent;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.about_text_two {
+    font-size: 20px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #01b3b0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about_icons_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.about_icon {
+    color: #01b3b0;
+    transition: .5s;
+}
+
+.about_icon:hover {
+    color: #124f4ff9;
+    transition: .5s;
+}
+
+@media only screen and (max-width:1021px) {
+    .About {
+        flex-direction: column;
+        width: 900px;
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .about_right_content {
+        max-width: 800px;
+        height: 200px;
+    }
+
+    .about_text_two {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width:916px) {
+    .About {
+        flex-direction: column;
+        max-width: 700px;
+        height: auto;
+
+    }
+
+    .about_right_content {
+        max-width: 700px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:716px) {
+    .about_img {
+        width: 550px;
+        height: 287px;
+    }
+}
+
+@media only screen and (max-width:601px) {
+    .about_img {
+        width: 450px;
+        height: 207px;
+    }
+}
+
+@media only screen and (max-width:501px) {
+    .about_img {
+        width: 280px;
+        height: 207px;
+    }
+}
+
+@media only screen and (max-width:351px) {
+    .about_text_two {
+        font-size: 12px;
+        max-width: 250px;
+    }
+
+    .About {
+        gap: 10px;
+        padding: 0px 10px;
+    }
+
+}

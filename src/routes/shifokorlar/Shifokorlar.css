@@ -1,0 +1,154 @@
+.Shifokorlar_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+.shifokorlar {
+    max-width: 1400px;
+    height: 926px;
+}
+
+.shifokorlar_text {
+    color: #01b3b0;
+    font-size: 35px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shifokorlar_cards_content {
+    max-width: 1400px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.shifokor_cards {
+    max-width: 425px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.shifokor_img {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.shifokor_cards:hover .shifokor_img {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.shifokor_cards:hover .sh_hover {
+    transform: translateY(0);
+    transition: transform 0.5s;
+}
+
+
+.sh_hover {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+
+.sh_hover_text {
+    max-width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 10px;
+}
+
+.sh_btn {
+    width: 80px;
+    height: 30px;
+    background-color: #FFF;
+    color: #01b3b0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    transition: .5s;
+}
+
+.sh_btn:hover {
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    transition: .5s;
+}
+
+@media only screen and (max-width:801px) {
+    .shifokorlar_cards_content {
+        grid-gap: 30px;
+    }
+
+    .shifokor_cards {
+        max-width: 380px;
+        height: 320px;
+    }
+
+    .sh_hover {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width:701px) {
+    .shifokorlar_cards_content {
+        grid-gap: 30px;
+        height: 600px;
+    }
+
+    .shifokor_cards {
+        max-width: 280px;
+        height: 250px;
+    }
+
+    .sh_hover {
+        height: 250px;
+    }
+
+    .sh_hover_text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:621px) {
+    .shifokorlar_cards_content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .shifokorlar {
+        height: auto;
+    }
+}

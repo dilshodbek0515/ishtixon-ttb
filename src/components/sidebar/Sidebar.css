@@ -1,0 +1,157 @@
+:root {
+    --text-color: #01b3b0;
+    --hover-color: #008080;
+}
+
+.sidebar {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -50%;
+    z-index: 21;
+    transition: 0.5s;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+
+.active {
+    left: 0;
+    transition: 0.5s;
+}
+
+.sidebar_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 2px solid #008080;
+    margin-bottom: 30px;
+}
+
+.sidebar_logo {
+    width: 100px;
+}
+
+.sidebar_close_icons {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: .5s;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar_close_icons:hover {
+    color: red;
+    background-color: white;
+    border-color: red;
+    transition: .5s;
+}
+
+.sidebar_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.sidebar_item_list {
+    text-decoration: none;
+    color: #008080;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: .5s;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar_list_icon {
+    font-size: 25px;
+    transition: .5s;
+
+}
+
+.sidebar_item_list:hover .sidebar_list_icon {
+    transition: .5s;
+    animation: sidebar .5s 1 linear;
+    color: #008080;
+}
+
+.sidebar_item_list:hover {
+    transition: .5s;
+}
+
+@keyframes sidebar {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@media only screen and (min-width:769px) {
+    .sidebar {
+        left: -50%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .sidebar_logo {
+        width: 80px;
+    }
+
+    .sidebar_item {
+        gap: 20px;
+    }
+
+    .sidebar_item_list {
+        font-size: 18px;
+    }
+
+    .sidebar_list_icon {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .sidebar_item {
+        gap: 15px;
+    }
+
+    .sidebar_item_list {
+        font-size: 16px;
+    }
+
+    .sidebar_list_icon {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .sidebar_header {
+        padding: 11px 10px;
+    }
+
+    .sidebar_close_icons {
+        font-size: 22px;
+        border-radius: 4px;
+    }
+
+    .sidebar_item {
+        padding: 0px 10px;
+    }
+}

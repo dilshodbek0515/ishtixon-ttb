@@ -1,0 +1,98 @@
+[
+    {
+        "id": "№",
+        "title": "Manzil",
+        "content": "Biriktirilgan shifokor",
+        "tel": "Telefon"
+    },
+    {
+        "id": "1",
+        "title": "Ishtixon tuman koʻp tarmoqli markazi poliklinikasi",
+        "content": "Mardonova Shaxlo Normamatovna",
+        "tel": "+998942877222"
+    },
+    {
+        "id": "2",
+        "title": "Ishtixon tumani Xalqobod oilaviy poliklinikasi",
+        "content": "Babanov O'tkir Ubaydullaevich",
+        "tel": "+998933587470"
+    },
+    {
+        "id": "3",
+        "title": "Ishtixon tumani O'zbekiston oilaviy poliklinika",
+        "content": "Xujamuradov Tirkash Ro'zievich",
+        "tel": "+998933556060"
+    },
+    {
+        "id": "4",
+        "title": "Ishtixon tumani Mustaqillik oilaviy poliklinika",
+        "content": "Tuymanov Tulqin Shukirovich",
+        "tel": "+998976125865"
+    },
+    {
+        "id": "5",
+        "title": "Ishtixon tumani Nurli diyor oilaviy poliklinikasi",
+        "content": "Hakimova Nasiba Jurakulovna",
+        "tel": "+998994296789"
+    },
+    {
+        "id": "6",
+        "title": "Ishtixon tumani Mitan poliklinikasi",
+        "content": "Ramanqulov Zafar Nurmaxamadovich",
+        "tel": "+998996778579"
+    },
+    {
+        "id": "7",
+        "title": "Ishtixon tumani Buston oilaviy shifokorlik punkti",
+        "content": "Nazarov Talant Qarshiboevich",
+        "tel": "+998975771274"
+    },
+    {
+        "id": "8",
+        "title": "Ishtixon tumani Barlos oilaviy shifokorlik punkti",
+        "content": "Kubaeva Adiba Xamidullaevna",
+        "tel": "+998993799555"
+    },
+    {
+        "id": "9",
+        "title": "Ishtixon tumani Sog'lom avlod oilaviy shifokorlik punkti",
+        "content": "Yarmatov Shamsiddin Shukurovich",
+        "tel": "+998933517369"
+    },
+    {
+        "id": "10",
+        "title": "Ishtixon tumani Zarband oilaviy shifokorlik punkti",
+        "content": "Xolmatova Gulnora Bekbutaevna",
+        "tel": "+998932233816"
+    },
+    {
+        "id": "11",
+        "title": "Ishtixon tumani Azamat oilaviy shifokorlik punkti",
+        "content": "Eshonqulov Sherali Donaevich",
+        "tel": "+998991665918"
+    },
+    {
+        "id": "12",
+        "title": "Ishtixon tumani Buyuk ipak yuli oilaviy shifokorlik punkti",
+        "content": "Muxtarov O‘ktam Tursunovich",
+        "tel": "+998972861206"
+    },
+    {
+        "id": "13",
+        "title": "Ishtixon tumani Ishtixon oilaviy shifokorlik punkti",
+        "content": "Egamberdieva Gulshad Eshkabulovna",
+        "tel": "+998934229964"
+    },
+    {
+        "id": "14",
+        "title": "Ishtixon tumani A.Navoiy oilaviy shifokorlik punkti",
+        "content": "Xudayqulov Baxodir Narmatovich",
+        "tel": "+998994188083"
+    },
+    {
+        "id": "15",
+        "title": "Ishtixon tumani Yangikent oilaviy shifokorlik punkti",
+        "content": "Qo'chqorova Shahnoza Shonazarovna",
+        "tel": "+998979191814"
+    }
+]

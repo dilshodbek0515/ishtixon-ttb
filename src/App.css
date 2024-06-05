@@ -1,0 +1,22 @@
+.scrolbar {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.scrolbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrolbar::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+}
+
+.scrolbar::-webkit-scrollbar-thumb {
+    background: teal;
+    border-radius: 10px;
+}
+
+.scrolbar::-webkit-scrollbar-thumb:hover {
+    background: teal;
+}

@@ -1,0 +1,99 @@
+.Yangiliklar_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
+
+.yangiliklar {
+    max-width: 1400px;
+    height: 2122px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.yangiliklar_text {
+    color: #01b3b0;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.yangiliklar_bottom_content {
+    max-width: 1400px;
+    height: 2020px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.yangiliklar_cards {
+    max-width: 600px;
+    height: 461px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #00000059;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.yangiliklar_img {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.yangiliklar_card_text {
+    color: #1e90ff;
+    font-size: 16px;
+    font-style: italic;
+    padding: 20px 50px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:1186px) {
+    .yangiliklar_cards {
+        height: auto;
+    }
+
+    .yangiliklar_bottom_content,
+    .yangiliklar {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:946px) {
+    .yangiliklar_card_text {
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width:761px) {
+    .yangiliklar_card_text {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .yangiliklar_img {
+        max-width: 250px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width:621px) {
+    .yangiliklar_bottom_content {
+        grid-template-columns: 1fr;
+    }
+
+    .yangiliklar_card_text {
+        text-align: center;
+    }
+}

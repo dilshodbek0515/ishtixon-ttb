@@ -1,0 +1,286 @@
+.Aloqa_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.aloqa {
+    max-width: 1400px;
+    height: 674px;
+    background-color: #ffffffb3;
+    border-radius: 30px;
+    box-shadow: 0 3px 8px #0000003d;
+    margin: 50px 0px;
+    padding: 50px 250px 100px;
+}
+
+
+.aloqa_bottom_content {
+    max-width: 900px;
+    height: 414px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.aloqa_text {
+    color: #01b3b0;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aloqa_left_content {
+    width: 400px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aloqa_left_content_text {
+    color: #01b3b0;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+}
+
+.aloqa_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aloqa_input {
+    background-color: initial;
+    font-size: 16px;
+    outline: none;
+    padding-left: 16px;
+    border-radius: 5px;
+    border: 1px solid #01b3b0;
+    color: #01b3b0;
+    height: 40px;
+    width: 100%;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textarea {
+    border: 1px solid #01b3b0;
+    border-radius: 10px;
+    color: #01b3b0;
+    height: 100px;
+    width: 100% !important;
+    background-color: initial;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 16px;
+    margin-top: 30px;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 7px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #008080;
+    border-radius: 20px;
+}
+
+.aloqa_btn {
+    background-color: #01b3b0;
+    border: 1px solid #0000;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    transition: .5s;
+    width: 120px;
+}
+
+.aloqa_btn:hover {
+    background: transparent;
+    color: #01b3b0;
+    border: 1px solid #01b3b0;
+}
+
+
+
+.aloqa_right_content {
+    max-width: 400px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.aloqa_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #01b3b0;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aloqa_links,
+.aloqa_linkss {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #01b3b0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 180px;
+}
+
+.aloqa_linkss {
+    max-width: 400px;
+}
+
+.aloqa_href {
+    text-decoration: none;
+}
+
+.aloqa_links:hover .aloqa_circle {
+    animation: contact_icons .5s 1 linear;
+}
+
+.aloqa_linkss:hover .aloqa_circle {
+    animation: contact_icons .5s 1 linear;
+}
+
+@keyframes contact_icons {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@media only screen and (max-width:1310px) {
+    .aloqa_left_content {
+        max-width: 400px;
+    }
+
+    .aloqa_bottom_content {
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width:1201px) {
+    .aloqa_left_content {
+        max-width: 300px;
+    }
+
+    .aloqa_right_content {
+        max-width: 300px;
+    }
+
+    .aloqa_linkss {
+        max-width: 500px;
+    }
+
+    .aloqa {
+        margin: 50px 0px;
+        padding: 50px 150px 50px 150px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    .aloqa {
+        margin: 50px 0px;
+        padding: 50px 50px 50px 50px;
+    }
+
+}
+
+@media only screen and (max-width:781px) {
+    .aloqa_left_content_text {
+        font-size: 18px;
+    }
+
+    .aloqa_links,
+    .aloqa_linkss {
+        font-size: 16px;
+    }
+
+    .aloqa_circle {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .aloqa_bottom_content {
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:781px) {
+    .aloqa_bottom_content {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .aloqa,
+    .aloqa_bottom_content {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:441px) {
+    .aloqa {
+        padding: 20px 20px;
+    }
+}
+
+@media only screen and (max-width:371px) {
+    .aloqa_left_content_text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aloqa_links,
+    .aloqa_linkss {
+        font-size: 14px;
+    }
+
+    .aloqa_circle {
+        width: 26px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .aloqa_input,
+    .textarea {
+        max-width: 270px;
+    }
+
+    .aloqa_form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aloqa {
+        padding: 20px 5px;
+        margin: 20px 20px;
+    }
+
+}
